@@ -34,10 +34,10 @@ import { NavigationContainer } from '@react-navigation/native';
 
 const Tab = createBottomTabNavigator();
 
-function MyTabs() {
+const MyTabs = () => {
   return (
     <Tab.Navigator>
-      <Tab.Screen name="Cards" component={CardsScreen} />
+      <Tab.Screen name="Cards" component={CardsScreen} options={{ headerShown: false }}/>
       <Tab.Screen name="Decks" component={DecksScreen} />
       <Tab.Screen name="Campaigns" component={CampaignsScreen} />
     </Tab.Navigator>
@@ -46,7 +46,6 @@ function MyTabs() {
 
 
 const App = () => {
-
   return (
     <NavigationContainer>
       <MyTabs />
