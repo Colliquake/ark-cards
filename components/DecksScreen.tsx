@@ -1,12 +1,86 @@
-import { Text } from "react-native"
+import { Text, View, ScrollView } from "react-native"
 
 const DecksScreen = () => {
-
-
     return (
-        <Text>
-            decks screen
-        </Text>
+        <ScrollView>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>decks screen</Text>
+            <Text>DECKS SCREEN</Text>
+        </ScrollView>
     )
 }
 

@@ -1,17 +1,39 @@
-import { Button, Text, View } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import AllCards from './Cards/AllCards';
-import Investigators from "./Cards/Investigators";
-import Weaknesses from "./Cards/Weaknesses";
+import AllCardsScreen from './Cards/AllCardsScreen';
+import InvestigatorsScreen from "./Cards/InvestigatorsScreen";
+import WeaknessesScreen from "./Cards/WeaknessesScreen";
 
 const Tab = createBottomTabNavigator();
 
 const CardsScreen = () => {
     return (
-        <Tab.Navigator>
-            <Tab.Screen name="All Cards" component={AllCards} />
-            <Tab.Screen name="Investigators" component={Investigators} />
-            <Tab.Screen name="Weaknesses" component={Weaknesses} />
+        <Tab.Navigator screenOptions={{
+            tabBarStyle: { 
+                position: 'absolute',
+                top: 0,
+                height: 30,
+            },
+            tabBarIconStyle: {
+                display: 'none',
+            },
+            tabBarLabelStyle: {
+                fontSize: 18,
+            },
+            headerShown: false,
+        }}>
+            <Tab.Screen name="All Cards" component={AllCardsScreen} />
+            <Tab.Screen name="Investigators" component={InvestigatorsScreen} />
+            <Tab.Screen name="Weaknesses" component={WeaknessesScreen} />
+
+            {/* pass props: */}
+            {/* <Tab.Screen name="All Cards" children={props => <AllCardsScreen {...props} />} />
+            <Tab.Screen name="Investigators" children={props => <InvestigatorsScreen {...props} />} />
+            <Tab.Screen name="Weaknesses" children={props => <WeaknessesScreen {...props} />} /> */}
+
+            {/* alternate way: */}
+            {/* <Tab.Screen name="All Cards" >
+                {() => <AllCardsScreen tabBarHeight={tabBarHeight}/>}
+            </Tab.Screen> */}
         </Tab.Navigator>
     )
 }

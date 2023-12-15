@@ -1,8 +1,11 @@
+import { useBottomTabBarHeight } from "@react-navigation/bottom-tabs";
 import { View, Text } from "react-native";
 
-const Weaknesses = () => {
+const WeaknessesScreen = () => {
+    const tabBarHeight = useBottomTabBarHeight();
+    
     return (
-        <View>
+        <View style={{marginTop: tabBarHeight}}>
             <Text>Hospital Debts</Text>
             <Text>Final Rhapsody</Text>
             <Text>Dark Future</Text>
@@ -11,4 +14,4 @@ const Weaknesses = () => {
     )
 }
 
-export default Weaknesses;
+export default WeaknessesScreen;
